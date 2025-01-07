@@ -1,6 +1,4 @@
 import React from "react";
-
-
 function TaskFilter({ setFilter, currentFilter }) {
   return (
     <div className="mb-4">
