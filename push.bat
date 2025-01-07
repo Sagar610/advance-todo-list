@@ -31,4 +31,3 @@ git push origin master
 
 REM Confirmation message
 echo Changes pushed to GitHub successfully!
-pause
