@@ -7,6 +7,7 @@ git add .
 
 REM Commit changes with a default message
 echo Enter commit message:
+if "%commitMsg%"=="" set commitMsg=Auto commit: %date% %time%
 set /p commitMsg=
 git commit -m "%commitMsg%"
 
