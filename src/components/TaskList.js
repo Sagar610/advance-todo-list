@@ -11,7 +11,7 @@ function TaskList({
 }) {
   const [darkMode, setDarkMode] = useState(false); // State for dark mode
 
-  const toggleDarkMode = () => setDarkMode((prev) => !prev);
+  // const toggleDarkMode = () => setDarkMode((prev) => !prev);
 
   const toggleTaskSelection = (taskId) => {
     if (selectedTasks.includes(taskId)) {
