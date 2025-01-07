@@ -1,0 +1,21 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Run Git Auto Push",
+        "type": "shell",
+        "command": "D:\\react\\push.bat",
+        "problemMatcher": [],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "presentation": {
+          "reveal": "always",
+          "panel": "shared"
+        },
+        "detail": "Automates git add, commit, and push to remote."
+      }
+    ]
+  }
+  
