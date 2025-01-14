@@ -90,5 +90,5 @@ TailwindCSS: Styling framework.
 https://advance-todo-list-one.vercel.app/
 
 License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MITTT License. See the LICENSE file for details.
 
