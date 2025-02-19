@@ -83,8 +83,12 @@ function TaskList({
 
 
                 <div className="flex items-center space-x-4">
+                  <span className="px-2 py-1 text-sm font-semibold rounded-full bg-yellow-100 text-yellow-600 dark:bg-yellow-700 dark:text-yellow-200">
                     {task.tags[0]}
+                  </span>  
                 </div>
+
+                    
 
                 <div className="flex items-center space-x-4">
                   <span
