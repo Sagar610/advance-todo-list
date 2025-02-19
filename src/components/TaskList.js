@@ -80,6 +80,12 @@ function TaskList({
                   </span>
                 </div>
 
+
+
+                <div className="flex items-center space-x-4">
+                    {task.tags[0]}
+                </div>
+
                 <div className="flex items-center space-x-4">
                   <span
                     className={`px-2 py-1 text-sm font-semibold rounded-full ${getPriorityClass(
